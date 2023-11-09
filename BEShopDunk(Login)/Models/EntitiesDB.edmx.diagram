@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3e786c9da320406e8125efc4b6703c32" Name="Diagram1" ZoomLevel="139">
+        <EntityTypeShape EntityType="DBShopDunkModel.Battery" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Category" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Color" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Customer" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.FrontCamera" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.ImageDetail" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Memory" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Order" Width="1.5" PointX="5.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.OrderDetail" Width="1.5" PointX="7.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.ProDetail" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.RearCamera" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Screen" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.User" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBShopDunkModel.Voucher" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Battery" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_FrontCamera" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_ImageDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Memory" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_ProDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Voucher" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_RearCamera" ManuallyRouted="false" />
+        <AssociationConnector Association="DBShopDunkModel.FK_Pro_Screen" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

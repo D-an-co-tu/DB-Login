@@ -1,0 +1,41 @@
+﻿@model BEShopDunk_Login_.Models.Customer
+
+@{
+    ViewBag.Title = "RegisterCus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .field-validation-error {
+        color: red;
+    }
+</style>
+<h2>Register Customer</h2>
+@using (Html.BeginForm("RegisterCus", "LoginUser", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    if (ViewBag.ErrorRegister != null)
+    {
+        <p>@ViewBag.ErrorRegister</p>
+    }
+    <p>@Html.LabelFor(model => model.CusEmail)</p>
+    <p>@Html.EditorFor(model => model.CusEmail)</p>
+    <p>@Html.ValidationMessageFor(model => model.CusEmail)</p>
+    <p>@Html.LabelFor(model => model.CusPhone)</p>
+    <p>@Html.EditorFor(model => model.CusPhone)</p>
+    <p>@Html.ValidationMessageFor(model => model.CusPhone)</p>
+    <p>@Html.LabelFor(model => model.CusName)</p>
+    <p>@Html.EditorFor(model => model.CusName)</p>
+    <p>@Html.ValidationMessageFor(model => model.CusName)</p>
+    <p>@Html.LabelFor(model => model.CusPassword)</p>
+    <p>@Html.EditorFor(model => model.CusPassword)</p>
+    <p>@Html.ValidationMessageFor(model => model.CusPassword)</p>
+    <p>@Html.LabelFor(model => model.Address)</p>
+    <p>@Html.EditorFor(model => model.Address)</p>
+    <p>@Html.ValidationMessageFor(model => model.Address)</p>
+    <p>@Html.LabelFor(model => model.Gender)</p>
+    <p>@Html.EditorFor(model => model.Gender)</p>
+    <p>@Html.ValidationMessageFor(model => model.Gender)</p>
+    <input type="submit" value="Register" />
+}
+
